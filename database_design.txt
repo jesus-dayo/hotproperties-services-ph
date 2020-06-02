@@ -1,0 +1,22 @@
+Database
+
+User
+id , name, username, password, status , deleted , createdDt, updatedDt
+  
+UserRole
+userId, roleId
+
+Role
+id, role
+
+Location
+id, country, city, street, province, postal 
+
+Property
+id, name, description, locationId, price, rooms, type   
+
+Images
+id , description, image LONGBLOB , propertyId
+
+Type
+id , name

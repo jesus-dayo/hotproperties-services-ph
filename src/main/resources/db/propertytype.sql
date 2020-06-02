@@ -1,0 +1,4 @@
+ INSERT INTO `Type` (`name`) VALUES ('HOUSE AND LOT');
+ INSERT INTO `Type` (`name`) VALUES ('CONDOMINIUM');
+ INSERT INTO `Type` (`name`) VALUES ('OFFICE SPACE');
+   

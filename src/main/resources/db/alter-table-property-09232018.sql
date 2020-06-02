@@ -1,0 +1,4 @@
+ALTER TABLE `property` 
+ADD COLUMN `maxPrice` VARCHAR(766) DEFAULT NULL AFTER `price`,
+ADD COLUMN `maxRooms` bigint(20) DEFAULT NULL AFTER `rooms`,
+ADD COLUMN `maxSQM` bigint(20) DEFAULT NULL AFTER `sqm`;
