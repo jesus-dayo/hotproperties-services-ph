@@ -1,0 +1,6 @@
+public/build/css/*.css linguist-vendored
+public/build/js/* linguist-vendored
+public/build/font/* linguist-vendored
+*.css linguist-detectable=false
+*.sql linguist-detectable=false
+*.java linguist-detectable=true
